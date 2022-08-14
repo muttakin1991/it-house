@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300;1,600&family=Oswald:wght@300;500;600&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 
+<div class="triangle-right"></div>
+margin-left: 249px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 32px solid rgb(246, 156, 85);
+    transform: rotate(90deg);
+} */
+
+/******************************************************
+ nav bar *************************************************************/
+
+.head-nav {
+    background-color: #FAEA48;
+}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+
+
+
+/******************************************************
+ nav bar *************************************************************/
+
+.banner-text h3 {
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #47B5FF;
+}
+
+.triangle-right {
+    margin-top: -14px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 24px solid #47B5FF;
+    transform: rotate(90deg);
+    z-index: 0;
+
+}
+
+/******************************************************
+ exprience *************************************************************/
+
+.exprience {
+    background-image: url(/asset/images/experience-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+
+    border-top: 10px solid #FAEA48;
+
+}
+
+
+
+.exprience1 {
+    background-color: #47B5FF;
+    opacity: 0.7;
+    text-align: center;
+    border-radius: 17px;
+
+}
+
+.headerex {
+    color: #FAEA48;
+}
+
+.tran-boder {
+    height: 15px;
+    background-color: #FAEA48;
+}
+
+.triangle-right1 {
+    margin-top: -14px;
+    /* position: absolute;
+    top: 188px;
+    left: -79px; */
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 24px solid #FAEA48;
+    transform: rotate(90deg);
+    z-index: 0;
+    margin-bottom: 70px;
+}
+
+.expri-text {
+    color: aliceblue;
+
+}
+
+/**************10px****************************************
+ slider *************************************************************/
+
+
+
+
+
+.slider-sec {
+    background-image: url(/asset/images/service-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.slider1 {
+    background-color: #47B5FF;
+    opacity: 0.9;
+    text-align: center;
+    /* height: 360px;
+    width: 90%; */
+    border-radius: 17px;
+    color: aliceblue;
+}
+
+.head1 {
+    color: #FAEA48;
+}
+
+
+/******************************************************
+ project *************************************************************/
+
+.project-hedar {
+    background-color: #FAEA48;
+    border-bottom: 1px solid gray;
+}
+
+.project-hedar h2 {
+    color: #002B5B;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+.project-sec {
+    background-color: #47B5FF;
+}
+
+
+
+.project-boder {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+
+
+/******************************************************
+ fotter *************************************************************/
+
+
+
+.fotter-sec {
+    background-color: #002B5B;
+    border-bottom: 1px solid #2c4c6f;
+}
+
+
+.fotter-copy {
+    background-color: #002B5B;
+    height: 15px;
+}
+
+
